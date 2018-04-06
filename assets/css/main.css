@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Condensed:300,400,700,900,300italic");
 
 /*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	O, Hello!
 */
 
 /* Reset */
@@ -1614,7 +1612,7 @@
 		.icon.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #ef6c00;
+			background-color: #252122;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -1641,7 +1639,7 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #ef6c00;
+				border-top: solid 2em #252122;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
@@ -1666,7 +1664,7 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #f3f3f3 url("../../images/pic01.jpg");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;

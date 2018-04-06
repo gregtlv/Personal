@@ -1,0 +1,108 @@
+/* Greg */
+
+.header-contacts__title {
+	/* For mobile need */
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+}
+
+	.contact-form__input {
+		margin: 0 0 1em 0;
+	}
+
+	.contact-form__area {
+		margin: 0 0 1em 0;	
+	}
+
+	.contact-form__button {
+		display: flex;
+		justify-content: center;
+		margin: 0 0 1em 0;	
+	}
+
+
+.contact-personal {
+	/*width: 200px;*/
+}
+.my-photo {
+	margin: 0 0 1em 0;
+}
+.contact-image {
+	border-radius: 2%;
+}
+
+.my-photo-small {
+	display: none;
+	justify-content: center;
+}
+	.contact-image__small {
+		border-radius: 50%;
+}
+
+.social-icon__item {
+	width: 50px;
+	height: 50px;
+	margin: 0 25px;
+	margin-bottom: -0.9em;
+}
+
+.contacts-items {
+	display: flex;
+	justify-content: center;
+}
+.social-icons {
+	display: flex;
+	flex-direction: row;
+}
+.social-icon__item_fb {
+	background-image: url(../../images/icons/facebook.svg);
+}
+.social-icon__item_tlgrm {
+	background-image: url(../../images/icons/telegram_logo.svg);
+}
+.social-icon__item_whtsp {
+	background-image: url(../../images/icons/whatsapp.svg);
+}
+/*.contacts-area {
+	display: flex;
+	flex-direction: column-reverse;
+}*/
+
+/*mobile*/
+
+@media screen and (max-width: 736px) {
+  .header-contacts__title {
+		display: flex;
+		justify-content: center;
+	}
+
+  .my-photo-small {
+		display: flex;
+		justify-content: flex-end;
+	} 
+  .my-photo {
+  		display: none;
+  }	
+
+  .contact-personal__content {
+  	display: flex;
+  	justify-content: flex-end;
+  }
+  .contact-personal__title {
+  	margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 737px) {
+/*	 .header-contacts__title {
+		display: flex;
+		justify-content: center;
+*/
+
+
+
+
+}
