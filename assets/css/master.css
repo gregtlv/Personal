@@ -1,0 +1,22 @@
+/* Greg */
+
+.header-contacts__title {
+	/* For mobile need */
+}
+
+.contact-form__input {
+	margin: 0 0 1em 0;
+}
+
+@media screen and (max-width: 736px) {
+  .header-contacts__title {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+/*@media screen and (min-width: 737px) {
+	 .header-contacts__title {
+		display: flex;
+		justify-content: center;
+}*/
