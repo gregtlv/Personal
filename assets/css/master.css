@@ -1,5 +1,4 @@
 /* Greg */
-
 .header-contacts__title {
 	/* For mobile need */
 }
@@ -9,8 +8,16 @@
 	flex-direction: column;
 }
 
-	.contact-form__input {
+	.contact-form .contact-form__input {
 		margin: 0 0 1em 0;
+	}
+
+	.contact-form .input-style {
+		border: 1px solid #000000;
+	}
+	.contact-form .input-red {
+		border: 1px solid #c51349;
+	  background-color : #f8bbd0;
 	}
 
 	.contact-form__area {
@@ -102,6 +109,7 @@
   	margin: 0 auto;
   }
 }
+
 
 @media screen and (min-width: 737px) {
 /*	 .header-contacts__title {
