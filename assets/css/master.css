@@ -30,6 +30,9 @@
 		margin: 0 0 1em 0;
 	}
 
+.contacts_text {
+	text-align: justify;
+}
 
 .contact-personal {
 	/*width: 200px;*/
