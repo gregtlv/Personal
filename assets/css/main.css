@@ -1593,9 +1593,11 @@
 	.icon {
 		position: relative;
 		text-decoration: none;
+
 	}
 
 		.icon:before {
+
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
@@ -1606,6 +1608,7 @@
 
 		.icon > .label {
 			display: none;
+
 		}
 
 		.icon.featured {
@@ -1618,12 +1621,19 @@
 			border-top-right-radius: 5px;
 			margin: 0 0 4.5em 0;
 			cursor: default;
+
 		}
+			.icon.featured.alt3:alt{
+				background-image: url(https://image.flaticon.com/icons/svg/115/115791.svg);
+				background-size: 9em;
+
+			}
 
 			.icon.featured:before {
 				font-size: 4.5em;
 				line-height: 1em;
 				color: #fff;
+
 			}
 
 			.icon.featured:after {
@@ -1638,6 +1648,7 @@
 
 			.icon.featured.alt {
 				background-color: #1565c0;
+
 			}
 
 				.icon.featured.alt:after {
