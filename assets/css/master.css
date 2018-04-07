@@ -1,5 +1,4 @@
 /* Greg */
-
 .header-contacts__title {
 	/* For mobile need */
 }
@@ -9,20 +8,31 @@
 	flex-direction: column;
 }
 
-	.contact-form__input {
+	.contact-form .contact-form__input {
 		margin: 0 0 1em 0;
 	}
 
+	.contact-form .input-style {
+		border: 1px solid #000000;
+	}
+	.contact-form .input-red {
+		border: 1px solid #c51349;
+	  background-color : #f8bbd0;
+	}
+
 	.contact-form__area {
-		margin: 0 0 1em 0;	
+		margin: 0 0 1em 0;
 	}
 
 	.contact-form__button {
 		display: flex;
 		justify-content: center;
-		margin: 0 0 1em 0;	
+		margin: 0 0 1em 0;
 	}
 
+.contacts_text {
+	text-align: justify;
+}
 
 .contact-personal {
 	/*width: 200px;*/
@@ -56,6 +66,7 @@
 .social-icons {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 2.2em;
 }
 .social-icon__item_fb {
 	background-image: url(../../images/icons/facebook.svg);
@@ -73,28 +84,39 @@
 
 /*mobile*/
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 960px) {
   .header-contacts__title {
 		display: flex;
 		justify-content: center;
 	}
 
+<<<<<<< HEAD
+
+=======
   .my-photo-small {
 		display: flex;
-		justify-content: flex-end;
-	} 
+		justify-content: center;
+		margin-bottom: 2em;
+	}
+>>>>>>> 1b0b1a0bb5d9adf693ff88337e17f082af55be70
   .my-photo {
   		display: none;
-  }	
+			margin-bottom: ;
+  }
+	.social-icons {
+	    margin-bottom: 1.5em;
+	}
 
   .contact-personal__content {
   	display: flex;
+		flex-direction: column-reverse;
   	justify-content: flex-end;
   }
   .contact-personal__title {
   	margin: 0 auto;
   }
 }
+
 
 @media screen and (min-width: 737px) {
 /*	 .header-contacts__title {
