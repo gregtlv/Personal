@@ -90,15 +90,12 @@
 		justify-content: center;
 	}
 
-<<<<<<< HEAD
-
-=======
   .my-photo-small {
 		display: flex;
 		justify-content: center;
 		margin-bottom: 2em;
 	}
->>>>>>> 1b0b1a0bb5d9adf693ff88337e17f082af55be70
+
   .my-photo {
   		display: none;
 			margin-bottom: ;
